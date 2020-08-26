@@ -1,7 +1,10 @@
 import Car from "../Models/Car.js";
 import STORE from "../store.js";
 
-//Public
+/* -------------------------------------------------------------------------- */
+/*                                   Public                                   */
+/* -------------------------------------------------------------------------- */
+
 class CarsService {
   removeCar(id) {
     let carIndex = STORE.State.cars.findIndex(c => c.id === id)

@@ -16,9 +16,11 @@ let _state = {
 };
 
 class Store {
-  /**
-   * Provides access to application state data
-   */
+
+/* -------------------------------------------------------------------------- */
+/*                  Provides access to application state data                 */
+/* -------------------------------------------------------------------------- */
+
   get State() {
     return _state;
   }

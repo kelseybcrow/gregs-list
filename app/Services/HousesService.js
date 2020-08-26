@@ -1,7 +1,10 @@
 import House from "../Models/House.js";
 import STORE from "../store.js";
 
-// Public
+/* -------------------------------------------------------------------------- */
+/*                                   Public                                   */
+/* -------------------------------------------------------------------------- */
+
 class HousesService {
   removeHouse(id) {
     let houseIndex = STORE.State.cars.findIndex(h.id === id)

@@ -6,7 +6,11 @@ function _drawCars() {
   console.log(6)
   let cars = STORE.State.cars
   let template = ''
-  // NOTE when you have a collection of items, they will need to be added to the template in a loop
+
+/* -------------------------------------------------------------------------- */
+/*              collection of items, add to template in a loop              */
+/* -------------------------------------------------------------------------- */
+
   cars.forEach(c => template += c.Template)
   document.getElementById('data').innerHTML = template
 }
@@ -45,7 +49,10 @@ function _drawCarsForms() {
 }
 
 
-//Public
+/* -------------------------------------------------------------------------- */
+/*                                   Public                                   */
+/* -------------------------------------------------------------------------- */
+
 export default class CarsController {
   constructor() {
     console.log(5)

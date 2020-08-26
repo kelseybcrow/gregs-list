@@ -1,7 +1,11 @@
 import { generateId } from "../utils.js";
 console.log(0)
 export default class Car {
-  // Object Destructuring
+
+/* -------------------------------------------------------------------------- */
+/*                            Object Destructuring                            */
+/* -------------------------------------------------------------------------- */
+
   constructor({ make, model, year, price, img, description }) {
     console.log(2);
     this.id = generateId()
@@ -14,7 +18,7 @@ export default class Car {
   }
 
   get Template() {
-    return `            
+    return `
     <div class="col-4">
       <div class="card">
           <img class="card-img-top" src="${this.img}" alt="">

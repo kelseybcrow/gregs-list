@@ -2,7 +2,10 @@ import housesService from "../Services/HousesService.js";
 import STORE from "../store.js";
 console.log(3)
 
-// private
+/* -------------------------------------------------------------------------- */
+/*                                   private                                  */
+/* -------------------------------------------------------------------------- */
+
 function _drawHouses() {
   console.log(6)
   let houses = STORE.State.houses
@@ -44,7 +47,10 @@ function _drawHousesForms() {
                 </form>`
 }
 
-// public
+/* -------------------------------------------------------------------------- */
+/*                                   public                                   */
+/* -------------------------------------------------------------------------- */
+
 export default class HousesController {
   constructor() {
     console.log(5)
