@@ -20,14 +20,13 @@ get Template() {
           <div class="card-body">
               <h4 class="card-title">${this.price} - ${this.bedrooms} - ${this.bathrooms}</h4>
               <p class="card-text">${this.description}</p>
-              // <div class="d-flex justify-content-between">
-              //     <button class="btn btn-outline-danger" onclick="app.carsController.removeCar('${this.id}')">Delete</button>
-              //     <button class="btn btn-outline-info" onclick="app.carsController.bid('${this.id}')">+ $100</button>
-              //     <p>$${this.price.toFixed(2)}</p>
-              // </div>
+              <div class="d-flex justify-content-between">
+                  <button class="btn btn-outline-danger" onclick="app.carsController.removeCar('${this.id}')">Delete</button>
+                  <button class="btn btn-outline-info" onclick="app.carsController.bid('${this.id}')">+ $100</button>
+                  <p>$${this.price.toFixed(2)}</p>
+              </div>
           </div>
       </div>
     </div>`
-  `
 }
 }
