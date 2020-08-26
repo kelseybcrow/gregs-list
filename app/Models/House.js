@@ -2,7 +2,7 @@ import { generateId } from "../utils.js";
 console.log(0)
 export default class House {
   // Object destructuring
-  constructor({ price, bedroom, bathroom, img, description }) {
+  constructor({ price, bedrooms, bathrooms, img, description }) {
     console.log(2);
     this.id = generateId()
     this.price = price
