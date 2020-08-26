@@ -9,9 +9,9 @@ let _state = {
     new Car({ make: "Jeep", model: "Wrangler", year: 1987, price: 1000, img: "https://vignette.wikia.nocookie.net/jurassicpark/images/e/e7/Jurassic-park-jeep3-1-.jpg/revision/latest/scale-to-width-down/340?cb=20090417212624", description: "Are those teeth marks?" })
   ],
   houses: [
-    new House({ price: 300,000, bedrooms: 3, bathrooms: 2.5, img: "//placehold.it/100X100/", description: "lorem ipsum dolor" })
-    new House({ price: 400,000, bedrooms: 4, bathrooms: 3, img: "//placehold.it/100X100/", description: "lorem ipsum dolor" })
-    new House({ price: 500,000, bedrooms: 4, bathrooms: 4, img: "//placehold.it/100X100/", description: "lorem ipsum dolor" })
+    new House({ price: 300,000, bedrooms: 3, bathrooms: 2.5, img: "//placehold.it//", description: "lorem ipsum dolor" })
+    new House({ price: 400,000, bedrooms: 4, bathrooms: 3, img: "//placehold.it//", description: "lorem ipsum dolor" })
+    new House({ price: 500,000, bedrooms: 4, bathrooms: 4, img: "//placehold.it//", description: "lorem ipsum dolor" })
   ]
 };
 
