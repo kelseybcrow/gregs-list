@@ -76,7 +76,7 @@ export default class HousesController {
     _drawHouses();
   }
 
-  removeCar(id) {
+  removeHouse(id) {
     debugger
     console.log('house', id)
     housesService.removeHouse(id);
